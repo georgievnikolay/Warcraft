@@ -1,0 +1,7 @@
+I-said casted Mass Teleport for 180 mana
+Values-not casted Animate Dead for 200 mana
+Values-not casted Death Coil for 0 mana
+Hardcoded - not enough mana to cast Charm
+I-said - not enough mana to cast Mass Teleport
+Values-not - not enough mana to cast Animate Dead
+Hardcoded - not enough mana to cast Charm

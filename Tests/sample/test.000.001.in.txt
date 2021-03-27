@@ -1,0 +1,6 @@
+Archmage 480 80 2
+DeathKnight 420 70
+DrawRanger 360 60
+2
+0 1
+

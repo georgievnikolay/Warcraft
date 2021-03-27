@@ -1,0 +1,7 @@
+ConjurusRex - not enough mana to cast Water Elemental
+Arthas - not enough mana to cast Death Coil
+Sylvanas - not enough mana to cast Silence
+ConjurusRex - not enough mana to cast Mass Teleport
+Arthas - not enough mana to cast Animate Dead
+Sylvanas - not enough mana to cast Charm
+

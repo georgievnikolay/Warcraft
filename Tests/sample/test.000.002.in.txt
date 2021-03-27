@@ -1,0 +1,6 @@
+Values 180 50 3
+Are-not 220 80
+Hardcoded 160 90
+2
+1 1
+

@@ -1,0 +1,15 @@
+ConjurusRex casted Mass Teleport for 180 mana
+Arthas casted Animate Dead for 200 mana
+Arthas casted Death Coil for 0 mana
+Sylvanas casted Charm for 150 mana
+ConjurusRex casted Mass Teleport for 180 mana
+Arthas - not enough mana to cast Animate Dead
+Sylvanas - not enough mana to cast Charm
+ConjurusRex casted Water Elemental for 120 mana
+Arthas casted Death Coil for 75 mana
+Sylvanas casted Silence for 90 mana
+Sylvanas casted Silence for 0 mana
+ConjurusRex casted Water Elemental for 120 mana
+Arthas casted Death Coil for 75 mana
+Sylvanas - not enough mana to cast Silence
+

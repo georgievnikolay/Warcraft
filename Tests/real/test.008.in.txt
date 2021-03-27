@@ -1,0 +1,6 @@
+ConjurusRex 380 100 1
+Arthas 300 70
+Sylvanas 250 60
+5
+0 0 2 1 1
+

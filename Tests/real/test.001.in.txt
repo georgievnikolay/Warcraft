@@ -1,0 +1,6 @@
+I-said 190 40 3
+Values-not 250 80
+Hardcoded 140 70
+2
+1 1
+

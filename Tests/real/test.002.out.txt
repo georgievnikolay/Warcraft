@@ -1,0 +1,17 @@
+Archmage casted Water Elemental for 120 mana
+DeathKnight casted Death Coil for 75 mana
+DrawRanger casted Silence for 90 mana
+DrawRanger casted Silence for 0 mana
+Archmage casted Water Elemental for 120 mana
+DeathKnight casted Death Coil for 75 mana
+DrawRanger casted Silence for 90 mana
+DrawRanger casted Silence for 0 mana
+Archmage casted Water Elemental for 120 mana
+DeathKnight casted Death Coil for 75 mana
+DrawRanger casted Silence for 90 mana
+DrawRanger casted Silence for 0 mana
+Archmage casted Mass Teleport for 180 mana
+DeathKnight casted Animate Dead for 200 mana
+DeathKnight casted Death Coil for 0 mana
+DrawRanger casted Charm for 150 mana
+
