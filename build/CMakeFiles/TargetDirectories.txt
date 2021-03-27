@@ -1,0 +1,3 @@
+/home/nikolay/Desktop/Code-Academy/Warcraft/build/CMakeFiles/rebuild_cache.dir
+/home/nikolay/Desktop/Code-Academy/Warcraft/build/CMakeFiles/warcraft.dir
+/home/nikolay/Desktop/Code-Academy/Warcraft/build/CMakeFiles/edit_cache.dir
