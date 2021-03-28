@@ -61,7 +61,7 @@ Important note: on the free basic cast spell you should print to the console –
 
     • DrawRanger – if SpellType::BASIC is successfully casted the DrawRanger gets immediately a free ActionType::CAST_BASIC_SPELL. 
 Important note: on the free basic cast spell you should print to the console – ‘spell name’ casted for 0 mana (cast the spell for 0 mana).
-    ​ 
+
 Restrictions
 Code should compile under the C 11 standard.
 Code should not use any non-standard extensions.
