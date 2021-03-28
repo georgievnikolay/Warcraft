@@ -43,14 +43,14 @@ enum ActionType {
   CAST_BASIC_SPELL, CAST_ULTIMATE_SPELL, REGENERATE_MANA
 };
 
-    ​ “0” or ActionType::CAST_BASIC_SPELL command – all heroes should TRY to casts their BASIS spells (if they have enough mana points);
-    ​ “1” or ActionType::CAST_ ULTIMATE _SPELL command – all heroes should TRY to casts their ULTIMATE spells (if they have enough mana points);
-    ​ “2” or ActionType::REGENERATE_MANA command – all heroes should use their ability to regenerate mana;
+     “0” or ActionType::CAST_BASIC_SPELL command – all heroes should TRY to casts their BASIS spells (if they have enough mana points);
+     “1” or ActionType::CAST_ ULTIMATE _SPELL command – all heroes should TRY to casts their ULTIMATE spells (if they have enough mana points);
+     “2” or ActionType::REGENERATE_MANA command – all heroes should use their ability to regenerate mana;
 
 Console output
 After each ActionType::CAST_BASIC_SPELL or ActionType::CAST_ULTIMATE_SPELL each hero should print to the console a result of his actions.
-    ​ For successful cast you should print: ‘spell name’ casted for ‘spell mana’ followed by a newline.
-    ​ For unsuccessful cast you should print: ‘spell name’ – not enough mana to cast ‘spell name’ followed by a newline. 
+     For successful cast you should print: ‘spell name’ casted for ‘spell mana’ followed by a newline.
+     For unsuccessful cast you should print: ‘spell name’ – not enough mana to cast ‘spell name’ followed by a newline. 
 Note: ActionType::REGENERATE_MANA does NOT print any result to the console.
 
 Special hero abilities:
