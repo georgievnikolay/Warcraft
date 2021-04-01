@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/nikolay/Desktop/Code-Academy/Warcraft/src/Hero.c" "CMakeFiles/warcraft.dir/src/Hero.c.o" "gcc" "CMakeFiles/warcraft.dir/src/Hero.c.o.d"
   "/home/nikolay/Desktop/Code-Academy/Warcraft/src/main.c" "CMakeFiles/warcraft.dir/src/main.c.o" "gcc" "CMakeFiles/warcraft.dir/src/main.c.o.d"
   )
 
