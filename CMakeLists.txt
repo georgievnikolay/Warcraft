@@ -14,6 +14,7 @@ add_executable(
         ${INC_DIR}/Hero.h
         
         ${SRC_DIR}/main.c
+        ${SRC_DIR}/Hero.c
 )
 
 target_include_directories(

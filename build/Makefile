@@ -129,6 +129,30 @@ warcraft/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/build
 .PHONY : warcraft/fast
 
+src/Hero.o: src/Hero.c.o
+.PHONY : src/Hero.o
+
+# target to build an object file
+src/Hero.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/Hero.c.o
+.PHONY : src/Hero.c.o
+
+src/Hero.i: src/Hero.c.i
+.PHONY : src/Hero.i
+
+# target to preprocess a source file
+src/Hero.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/Hero.c.i
+.PHONY : src/Hero.c.i
+
+src/Hero.s: src/Hero.c.s
+.PHONY : src/Hero.s
+
+# target to generate assembly for a file
+src/Hero.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/src/Hero.c.s
+.PHONY : src/Hero.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... warcraft"
+	@echo "... src/Hero.o"
+	@echo "... src/Hero.i"
+	@echo "... src/Hero.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
