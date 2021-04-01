@@ -4,19 +4,16 @@
 #include "Hero.h"
 
 int main() {
-  char name[MAX_HERO_NAME_SIZE + 1];
-  int maxMana = 0;
-  int baseManaRegenRate = 0;
-  int manaRegenModifier = 0;
+  Hero *champions = (Hero*)malloc(MAX_CHAMPIONS * sizeof(Hero));
 
   //read Archmage data
-  scanf("%s %d %d %d", name, &maxMana, &baseManaRegenRate, &manaRegenModifier);
+  archmageInit(&champions[0]);
 
   //read Death Knight data
-  scanf("%s %d %d", name, &maxMana, &baseManaRegenRate);
+  deathKnightInit(&champions[1]);
 
   //read Draw Ranger data
-  scanf("%s %d %d", name, &maxMana, &baseManaRegenRate);
+  drawRangerInit(&champions[2]);
 
   int commandsCount = 0;
   int currAction = 0;
@@ -25,6 +22,9 @@ int main() {
   for (int i = 0; i < commandsCount; ++i) {
     scanf("%d", &currAction);
   }
-
+  
+  // for (int i = 0; i < MAX_CHAMPIONS; i++) {
+  //   deinit((champions + i));
+  // }
   return EXIT_SUCCESS;
 }

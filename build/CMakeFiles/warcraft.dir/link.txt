@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/warcraft.dir/src/main.c.o -o warcraft 
+/usr/bin/cc CMakeFiles/warcraft.dir/src/main.c.o CMakeFiles/warcraft.dir/src/Hero.c.o -o warcraft 

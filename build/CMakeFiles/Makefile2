@@ -81,12 +81,12 @@ clean: CMakeFiles/warcraft.dir/clean
 CMakeFiles/warcraft.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/warcraft.dir/build.make CMakeFiles/warcraft.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikolay/Desktop/Code-Academy/Warcraft/build/CMakeFiles --progress-num=1,2 "Built target warcraft"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikolay/Desktop/Code-Academy/Warcraft/build/CMakeFiles --progress-num=1,2,3 "Built target warcraft"
 .PHONY : CMakeFiles/warcraft.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/warcraft.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolay/Desktop/Code-Academy/Warcraft/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolay/Desktop/Code-Academy/Warcraft/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/warcraft.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolay/Desktop/Code-Academy/Warcraft/build/CMakeFiles 0
 .PHONY : CMakeFiles/warcraft.dir/rule
