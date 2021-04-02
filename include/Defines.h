@@ -1,9 +1,9 @@
 #ifndef DEFINES_H_
 #define DEFINES_H_
 
-enum ActionType {
+typedef enum {
   CAST_BASIC_SPELL, CAST_ULTIMATE_SPELL, REGENERATE_MANA
-};
+}ActionType;
 
 typedef enum {
   BASIC = 0, ULTIMATE = 1
@@ -12,6 +12,9 @@ typedef enum {
 enum HeroType{
   ARCHMAGE, DEATH_KNIGHT, DRAW_RANGER
 };
+typedef enum { 
+  NOT_FREE, FREE
+}SpellCost;
 #define ARCHMAGE_BASIC_SPELL_NAME "Water Elemental"
 #define ARCHMAGE_BASIC_SPELL_MANA_COST 120
 #define ARCHMAGE_ULTIMATE_SPELL_NAME "Mass Teleport"

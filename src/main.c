@@ -3,8 +3,9 @@
 
 #include "Hero.h"
 
-int main() {
-  Hero *champions = (Hero*)malloc(MAX_CHAMPIONS * sizeof(Hero));
+int main()
+{
+  Hero *champions = (Hero *)malloc(MAX_CHAMPIONS * sizeof(Hero));
 
   //read Archmage data
   archmageInit(&champions[ARCHMAGE]);
@@ -19,9 +20,13 @@ int main() {
   int currAction = 0;
   scanf("%d", &commandsCount);
 
-  for (int i = 0; i < commandsCount; ++i) {
+  for (int i = 0; i < commandsCount; ++i)
+  {
     scanf("%d", &currAction);
+    action(champions,currAction);
   }
-  
+
+  deinit(&champions);
+
   return EXIT_SUCCESS;
 }

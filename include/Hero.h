@@ -49,11 +49,13 @@ void drawRangerUltimateSpell(Hero *drawRanger);
 
 bool hasEnoughMana(int currentMana , int manaCost);
 
-bool hasCastedSpell(Hero *hero , SpellType spelltype);
+bool hasCastedSpell(Hero *hero , SpellType spelltype, SpellCost cost);
 
 void reduceMana(Hero *hero, SpellType spelltype);
 
 void regenerateMana(Hero *hero);
+
+void action(Hero *champion,ActionType currAction);
 
 void deinit(Hero **hero);
 
