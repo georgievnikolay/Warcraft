@@ -9,10 +9,10 @@ void heroSpellsInit(Hero *hero, const char *basicSpellName,
                     int basicSpellManaCost, const char *ultimateSpellName,
                     int ultimateSpellManaCost) {
 
-    strcpy(hero->spells[0].name, basicSpellName);
-    hero->spells[0].manaCost = basicSpellManaCost;
-    strcpy(hero->spells[1].name, ultimateSpellName);
-    hero->spells[1].manaCost = ultimateSpellManaCost;
+    strcpy(hero->spells[BASIC].name, basicSpellName);
+    hero->spells[BASIC].manaCost = basicSpellManaCost;
+    strcpy(hero->spells[ULTIMATE].name, ultimateSpellName);
+    hero->spells[ULTIMATE].manaCost = ultimateSpellManaCost;
 
                     }
 
@@ -31,8 +31,8 @@ void archmageInit(Hero *hero) {
     scanf("%s %d %d %d", name, &maxMana, &baseManaRegenRate, &manaRegenModifier);                    
     heroBaseInit(hero, name, maxMana, baseManaRegenRate * manaRegenModifier);
     heroSpellsInit(hero, ARCHMAGE_BASIC_SPELL_NAME, ARCHMAGE_BASIC_SPELL_MANA_COST, ARCHMAGE_ULTIMATE_SPELL_NAME, ARCHMAGE_ULTIMATE_SPELL_MANA_COST);
-
-                  }
+    
+    }
 
 void deathKnightInit(Hero *hero) {
 
@@ -50,8 +50,73 @@ void drawRangerInit(Hero *hero) {
                         
                     }
 
+void archmageBasicSpell(Hero *archmage) {
+    if (hasCastedSpell(archmage, BASIC)) {
+        reduceMana(archmage, BASIC);
+    }
 
-// void deinit(Hero *hero) {
-//   free(hero);
-//   hero = NULL;
-// }
+}
+void deathKnightBasicSpell(Hero *deathKnight) {
+    if (hasCastedSpell(deathKnight, BASIC)) {
+        reduceMana(deathKnight, BASIC);
+    }
+}
+
+void drawRangerBasicSpell(Hero *drawRanger) {
+    if (hasCastedSpell(drawRanger, BASIC)) {
+        reduceMana(drawRanger, BASIC);
+        printf("%s casted %s for 0 mana", drawRanger->name, drawRanger->spells[BASIC].name);
+    }
+    
+}
+void archmageUltimateSpell(Hero *archmage) {
+    if (hasCastedSpell(archmage, ULTIMATE)) {
+        reduceMana(archmage, ULTIMATE);
+        regenerateMana(archmage);
+    }
+}
+void deathKnightUltimateSpell(Hero *deathKnight) {
+    if (hasCastedSpell(deathKnight, ULTIMATE)) {
+        reduceMana(deathKnight , ULTIMATE);
+        printf("%s casted %s for 0 mana", deathKnight->name, deathKnight->spells[BASIC].name);
+    }
+}
+void drawRangerUltimateSpell(Hero *drawRanger) {
+    if (hasCastedSpell(drawRanger, ULTIMATE)) {
+        reduceMana(drawRanger, ULTIMATE);
+    }
+}
+bool hasEnoughMana(int currentMana, int manaCost) {
+
+    if(currentMana >= manaCost)
+        return true;
+    
+    return false;
+}
+
+bool hasCastedSpell(Hero *hero, SpellType spelltype) {
+    if(hasEnoughMana(hero->currMana, hero->spells[spelltype].manaCost)) {
+        printf("%s casted %s for %d mana", hero->name, hero->spells[spelltype].name, hero->spells[spelltype].manaCost);
+        return true;
+    }
+    else {
+        printf("%s - not enough mana to cast %s", hero->name, hero->spells[spelltype].name);
+        return false;
+    }
+
+}
+void reduceMana(Hero *hero, SpellType spelltype) {
+    hero->currMana -= hero->spells[spelltype].manaCost;
+} 
+void regenerateMana(Hero *hero) {
+    hero->currMana += hero->manaRegenRate;
+    if(hero->currMana > hero->maxMana){
+        hero->currMana = hero->maxMana;
+    }
+}
+
+
+void deinit(Hero **hero) {
+    free(*hero);
+    (*hero)= NULL;
+}
