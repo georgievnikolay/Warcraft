@@ -7,13 +7,13 @@ int main() {
   Hero *champions = (Hero*)malloc(MAX_CHAMPIONS * sizeof(Hero));
 
   //read Archmage data
-  archmageInit(&champions[0]);
+  archmageInit(&champions[ARCHMAGE]);
 
   //read Death Knight data
-  deathKnightInit(&champions[1]);
+  deathKnightInit(&champions[DEATH_KNIGHT]);
 
   //read Draw Ranger data
-  drawRangerInit(&champions[2]);
+  drawRangerInit(&champions[DRAW_RANGER]);
 
   int commandsCount = 0;
   int currAction = 0;
@@ -23,8 +23,5 @@ int main() {
     scanf("%d", &currAction);
   }
   
-  // for (int i = 0; i < MAX_CHAMPIONS; i++) {
-  //   deinit((champions + i));
-  // }
   return EXIT_SUCCESS;
 }

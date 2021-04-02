@@ -5,10 +5,13 @@ enum ActionType {
   CAST_BASIC_SPELL, CAST_ULTIMATE_SPELL, REGENERATE_MANA
 };
 
-enum SpellType {
+typedef enum {
   BASIC = 0, ULTIMATE = 1
-};
+}SpellType;
 
+enum HeroType{
+  ARCHMAGE, DEATH_KNIGHT, DRAW_RANGER
+};
 #define ARCHMAGE_BASIC_SPELL_NAME "Water Elemental"
 #define ARCHMAGE_BASIC_SPELL_MANA_COST 120
 #define ARCHMAGE_ULTIMATE_SPELL_NAME "Mass Teleport"
