@@ -9,12 +9,14 @@ typedef enum {
   BASIC = 0, ULTIMATE = 1
 }SpellType;
 
-enum HeroType{
+typedef enum {
   ARCHMAGE, DEATH_KNIGHT, DRAW_RANGER
-};
+}HeroType;
+
 typedef enum { 
   NOT_FREE, FREE
 }SpellCost;
+
 #define ARCHMAGE_BASIC_SPELL_NAME "Water Elemental"
 #define ARCHMAGE_BASIC_SPELL_MANA_COST 120
 #define ARCHMAGE_ULTIMATE_SPELL_NAME "Mass Teleport"

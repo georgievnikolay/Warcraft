@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\User\codeAcademy\Warcraft
+CMAKE_SOURCE_DIR = "C:\Users\Owner\Desktop\WARCRAFT FTW\Warcraft"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\User\codeAcademy\Warcraft\build
+CMAKE_BINARY_DIR = "C:\Users\Owner\Desktop\WARCRAFT FTW\Warcraft\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\User\codeAcademy\Warcraft\build\CMakeFiles C:\Users\User\codeAcademy\Warcraft\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Owner\Desktop\WARCRAFT FTW\Warcraft\build\CMakeFiles" "C:\Users\Owner\Desktop\WARCRAFT FTW\Warcraft\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\User\codeAcademy\Warcraft\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Owner\Desktop\WARCRAFT FTW\Warcraft\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,78 @@ src/Hero.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/Hero.c.s
 .PHONY : src/Hero.c.s
 
+src/HeroesInit.obj: src/HeroesInit.c.obj
+.PHONY : src/HeroesInit.obj
+
+# target to build an object file
+src/HeroesInit.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/HeroesInit.c.obj
+.PHONY : src/HeroesInit.c.obj
+
+src/HeroesInit.i: src/HeroesInit.c.i
+.PHONY : src/HeroesInit.i
+
+# target to preprocess a source file
+src/HeroesInit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/HeroesInit.c.i
+.PHONY : src/HeroesInit.c.i
+
+src/HeroesInit.s: src/HeroesInit.c.s
+.PHONY : src/HeroesInit.s
+
+# target to generate assembly for a file
+src/HeroesInit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/HeroesInit.c.s
+.PHONY : src/HeroesInit.c.s
+
+src/Mana.obj: src/Mana.c.obj
+.PHONY : src/Mana.obj
+
+# target to build an object file
+src/Mana.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/Mana.c.obj
+.PHONY : src/Mana.c.obj
+
+src/Mana.i: src/Mana.c.i
+.PHONY : src/Mana.i
+
+# target to preprocess a source file
+src/Mana.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/Mana.c.i
+.PHONY : src/Mana.c.i
+
+src/Mana.s: src/Mana.c.s
+.PHONY : src/Mana.s
+
+# target to generate assembly for a file
+src/Mana.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/Mana.c.s
+.PHONY : src/Mana.c.s
+
+src/Spells.obj: src/Spells.c.obj
+.PHONY : src/Spells.obj
+
+# target to build an object file
+src/Spells.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/Spells.c.obj
+.PHONY : src/Spells.c.obj
+
+src/Spells.i: src/Spells.c.i
+.PHONY : src/Spells.i
+
+# target to preprocess a source file
+src/Spells.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/Spells.c.i
+.PHONY : src/Spells.c.i
+
+src/Spells.s: src/Spells.c.s
+.PHONY : src/Spells.s
+
+# target to generate assembly for a file
+src/Spells.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\warcraft.dir\build.make CMakeFiles/warcraft.dir/src/Spells.c.s
+.PHONY : src/Spells.c.s
+
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -188,6 +260,15 @@ help:
 	@echo ... src/Hero.obj
 	@echo ... src/Hero.i
 	@echo ... src/Hero.s
+	@echo ... src/HeroesInit.obj
+	@echo ... src/HeroesInit.i
+	@echo ... src/HeroesInit.s
+	@echo ... src/Mana.obj
+	@echo ... src/Mana.i
+	@echo ... src/Mana.s
+	@echo ... src/Spells.obj
+	@echo ... src/Spells.i
+	@echo ... src/Spells.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

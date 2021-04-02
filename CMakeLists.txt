@@ -12,9 +12,15 @@ add_executable(
     ${PROJECT_NAME}
         ${INC_DIR}/Defines.h
         ${INC_DIR}/Hero.h
+        ${INC_DIR}/HeroesInit.h
+        ${INC_DIR}/Mana.h
+        ${INC_DIR}/Spells.h
         
         ${SRC_DIR}/main.c
         ${SRC_DIR}/Hero.c
+        ${SRC_DIR}/HeroesInit.c
+        ${SRC_DIR}/Mana.c
+        ${SRC_DIR}/Spells.c
 )
 
 target_include_directories(

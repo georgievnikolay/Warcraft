@@ -1,5 +1,8 @@
-CMakeFiles/warcraft.dir/src/Hero.c.obj: \
- C:\Users\Owner\Desktop\WARCRAFT\ FTW\Warcraft\src\Hero.c \
+CMakeFiles/warcraft.dir/src/Spells.c.obj: \
+ C:\Users\Owner\Desktop\WARCRAFT\ FTW\Warcraft\src\Spells.c \
+ C:/Users/Owner/Desktop/WARCRA~1/Warcraft/include/Spells.h \
+ C:/Users/Owner/Desktop/WARCRA~1/Warcraft/include/Mana.h \
+ C:/Users/Owner/Desktop/WARCRA~1/Warcraft/include/HeroesInit.h \
  C:/Users/Owner/Desktop/WARCRA~1/Warcraft/include/Hero.h \
  C:/Users/Owner/Desktop/WARCRA~1/Warcraft/include/Defines.h \
  C:/PROGRA~1/MINGW-~1/mingw64/x86_64-w64-mingw32/include/stdlib.h \

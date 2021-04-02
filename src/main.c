@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #include "Hero.h"
+#include "Spells.h"
 
 int main()
 {
