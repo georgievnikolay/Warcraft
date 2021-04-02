@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\warcraft.dir/objects.a
-C:\PROGRA~1\MINGW-~1\mingw64\bin\ar.exe cr CMakeFiles\warcraft.dir/objects.a @CMakeFiles\warcraft.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\warcraft.dir/objects.a -Wl,--no-whole-archive -o warcraft.exe -Wl,--out-implib,libwarcraft.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\warcraft.dir\linklibs.rsp
+/usr/bin/cc CMakeFiles/warcraft.dir/src/main.c.o CMakeFiles/warcraft.dir/src/Hero.c.o CMakeFiles/warcraft.dir/src/HeroesInit.c.o CMakeFiles/warcraft.dir/src/Mana.c.o CMakeFiles/warcraft.dir/src/Spells.c.o -o warcraft 

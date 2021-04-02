@@ -9,5 +9,4 @@ void reduceMana(Hero *hero, SpellType spelltype);
 
 void regenerateMana(Hero *hero);
 
-
-#endif /*MANA_H_*/
+#endif /* MANA_H_ */

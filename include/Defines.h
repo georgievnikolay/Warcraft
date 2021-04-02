@@ -3,19 +3,19 @@
 
 typedef enum {
   CAST_BASIC_SPELL, CAST_ULTIMATE_SPELL, REGENERATE_MANA
-}ActionType;
+} ActionType;
 
 typedef enum {
   BASIC = 0, ULTIMATE = 1
-}SpellType;
+} SpellType;
 
 typedef enum {
   ARCHMAGE, DEATH_KNIGHT, DRAW_RANGER
-}HeroType;
+} HeroType;
 
 typedef enum { 
   NOT_FREE, FREE
-}SpellCost;
+} SpellCost;
 
 #define ARCHMAGE_BASIC_SPELL_NAME "Water Elemental"
 #define ARCHMAGE_BASIC_SPELL_MANA_COST 120

@@ -1,11 +1,8 @@
 #include "Hero.h"
 
-
-
 void heroSpellsInit(Hero *hero, const char *basicSpellName,
                     int basicSpellManaCost, const char *ultimateSpellName,
-                    int ultimateSpellManaCost)
-{
+                    int ultimateSpellManaCost) {
 
     strcpy(hero->spells[BASIC].name, basicSpellName);
     hero->spells[BASIC].manaCost = basicSpellManaCost;
@@ -14,16 +11,10 @@ void heroSpellsInit(Hero *hero, const char *basicSpellName,
 }
 
 void heroBaseInit(Hero *hero, const char *inputName, int inputMaxMana,
-                  int inputManaRegenRate)
-{
+                  int inputManaRegenRate) {
 
     strcpy(hero->name, inputName);
     hero->maxMana = inputMaxMana;
     hero->currMana = inputMaxMana;
     hero->manaRegenRate = inputManaRegenRate;
 }
-
-
-
-
-

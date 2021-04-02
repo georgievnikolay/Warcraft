@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Owner/Desktop/WARCRAFT FTW/Warcraft/src/Hero.c" "CMakeFiles/warcraft.dir/src/Hero.c.obj" "gcc" "CMakeFiles/warcraft.dir/src/Hero.c.obj.d"
-  "C:/Users/Owner/Desktop/WARCRAFT FTW/Warcraft/src/HeroesInit.c" "CMakeFiles/warcraft.dir/src/HeroesInit.c.obj" "gcc" "CMakeFiles/warcraft.dir/src/HeroesInit.c.obj.d"
-  "C:/Users/Owner/Desktop/WARCRAFT FTW/Warcraft/src/Mana.c" "CMakeFiles/warcraft.dir/src/Mana.c.obj" "gcc" "CMakeFiles/warcraft.dir/src/Mana.c.obj.d"
-  "C:/Users/Owner/Desktop/WARCRAFT FTW/Warcraft/src/Spells.c" "CMakeFiles/warcraft.dir/src/Spells.c.obj" "gcc" "CMakeFiles/warcraft.dir/src/Spells.c.obj.d"
-  "C:/Users/Owner/Desktop/WARCRAFT FTW/Warcraft/src/main.c" "CMakeFiles/warcraft.dir/src/main.c.obj" "gcc" "CMakeFiles/warcraft.dir/src/main.c.obj.d"
+  "/home/nikolay/Desktop/Code-Academy/Warcraft/src/Hero.c" "CMakeFiles/warcraft.dir/src/Hero.c.o" "gcc" "CMakeFiles/warcraft.dir/src/Hero.c.o.d"
+  "/home/nikolay/Desktop/Code-Academy/Warcraft/src/HeroesInit.c" "CMakeFiles/warcraft.dir/src/HeroesInit.c.o" "gcc" "CMakeFiles/warcraft.dir/src/HeroesInit.c.o.d"
+  "/home/nikolay/Desktop/Code-Academy/Warcraft/src/Mana.c" "CMakeFiles/warcraft.dir/src/Mana.c.o" "gcc" "CMakeFiles/warcraft.dir/src/Mana.c.o.d"
+  "/home/nikolay/Desktop/Code-Academy/Warcraft/src/Spells.c" "CMakeFiles/warcraft.dir/src/Spells.c.o" "gcc" "CMakeFiles/warcraft.dir/src/Spells.c.o.d"
+  "/home/nikolay/Desktop/Code-Academy/Warcraft/src/main.c" "CMakeFiles/warcraft.dir/src/main.c.o" "gcc" "CMakeFiles/warcraft.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links.

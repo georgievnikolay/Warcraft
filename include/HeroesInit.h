@@ -11,4 +11,4 @@ void drawRangerInit(Hero *hero);
 
 void deinit(Hero **hero);
 
-#endif /*HEROES_INIT_H_*/
+#endif /* HEROES_INIT_H_ */
